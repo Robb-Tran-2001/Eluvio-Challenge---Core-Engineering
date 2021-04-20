@@ -14,3 +14,5 @@ The python approach was much faster and also supported the longest common substr
 the offset of the LCS across all strands for general purpose use (-1 if there is none), but it definitely would have been just as easy to find the subtring offset just for the 2 
 files that my algorithm determined to have the longest common substring. This approach reduces runtime to O(n^2) and finding the LCS takes O(m + k), m and k being the length
 of each string in the pair. Thus, it was O(n ^ 2 * (m+k)), a significant improvement.
+
+EDIT: the suffix tree relies on a package. Do ```pip install suffix_trees``` from the terminal to download the package.
